@@ -18,8 +18,10 @@
   border:none;
   width:max-content;
   height:max-content;
-}
-.content .checked{
-    color:orchid;
 
+  cursor: pointer;
+}
+.checked{
+    color:#95a5a6;
+    text-decoration: line-through;
 }

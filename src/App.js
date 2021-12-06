@@ -10,11 +10,15 @@ function App() {
 
   const [lists, setLists] = useState(dummy.bucketLists);
 
+  const onCheckToggle = (id) =>{
+    setLists(lists=>lists.map(list =>(list.id===id ? {...list, isDone: !list.isDone} : list)));
+  }
+
   return (
     <Container>
       <Title>Title Here</Title>
       <Body>
-        <BucketList lists={lists}/>
+        <BucketList lists={lists} onCheckToggle={onCheckToggle}/>
       </Body>
     </Container>
   );

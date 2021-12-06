@@ -2,11 +2,11 @@ import React from 'react';
 import BucketListItem from './BucketListItem';
 import styled from 'styled-components';
 
-const BucketList = ({lists}) => {
+const BucketList = ({lists, onCheckToggle}) => {
     return(
         <Container>
             {lists.map(list=>(
-                <BucketListItem list={list} key={list.id}/>
+                <BucketListItem list={list} key={list.id} onCheckToggle={onCheckToggle}/>
             ))}
         </Container>
     );
