@@ -1,15 +1,21 @@
-import React from 'react';
+import React,{useState} from 'react';
 import styled from 'styled-components';
-
+import BucketList from './components/BucketList.js';
+import dummy from './db/data.json';
 import "./App.css";
 
 import backgroundImage from './images/patternedBackground.jpg';
 
 function App() {
+
+  const [lists, setLists] = useState(dummy.bucketLists);
+
   return (
     <Container>
       <Title>Title Here</Title>
-      <Body>Body Here</Body>
+      <Body>
+        <BucketList lists={lists}/>
+      </Body>
     </Container>
   );
 }
@@ -22,9 +28,8 @@ const Container = styled.div`
   display:flex;
   flex-direction:column;
   background-image:url(${backgroundImage});
-
   width:100%;
-  height:100vh;
+  height:100%;
 `;
 
 const Title = styled.div`
@@ -36,5 +41,4 @@ const Title = styled.div`
 
 const Body = styled.div`
   margin:1vw;
-  font-size:2em;
 `;

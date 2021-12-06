@@ -1,0 +1,28 @@
+{
+    "bucketLists" : [
+        {"id":1, "details":"게임 개발 공부(언리얼/유니티)", "isDone":true},
+        {"id":2, "details":"노트북 사기", "isDone":false},
+        {"id":3, "details":"태블릿 사기", "isDone":false},
+        {"id":4, "details":"다양한 분야asdfsadfsadfasdfasdfasdfasdfasdfasdfsdaf 개발 공부dfasdfasdfasdfasfsfadadfadf(웹, 게임)와 개발 기초(깃, 깃헙) 다지기", "isDone":false},
+        {"id":5, "details":"친구들하고 외박하기", "isDone":false},
+        {"id":6, "details":"해외 여행", "isDone":false},
+        {"id":7, "details":"인간 관dfd계에 더 많이 신경 쓰기", "isDone":false},
+        {"id":8, "details":"88888888", "isDone":false},
+        {"id":9, "details":"df얼댜ㅓㅇ러ㅑ ㅑㅐㅓㄷ ㅈ랴ㅐㅇ ", "isDone":false},
+        {"id":10, "details":"ㅑㅇㄹ8092 ㅇ9823 ㅓㅇㄹ ㅐㅑㄷㄹ", "isDone":false},
+        {"id":11, "details":"ㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹ", "isDone":false},
+        {"id":12, "details":"ㄴㅇㅁㄻㄴㅇㄻㄴㅇㄹ", "isDone":false},
+        {"id":13, "details":"ㅊㅌㅍㅋㅌㅊㅍㅌㅋㅊㅍㅋㅌsㅊㅍ324123413", "isDone":false},
+        {"id":14, "details":"ㅊㅌㅍㅋㅌㅊㅍㅌㅋㅊㅍㅋㅌfdㅊㅍ324123413", "isDone":false},
+        
+        {"id":15, "details":"ㅊㅌㅍㅍㅋㅌㅊㅍ324123413", "isDone":false},
+        
+        {"id":16, "details":"ㅊㅌㅍㅊㅍㅌㅋㅊㅍㅋㅌㅊㅍ324123413", "isDone":false},
+        
+        {"id":17, "details":"ㅊㅌㅍㅋㅌㅊㅊㅍㅋㅌㅊㅍ324123413", "isDone":false},
+        
+        {"id":18, "details":"ㅊㅊㅍㅌㅋㅊ  ㅍㅋㅌㅊㅍ3  23", "isDone":false}
+        
+        
+    ]
+}
